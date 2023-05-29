@@ -40,7 +40,7 @@ function checkNumbers() {
     }
 
     var prize = document.getElementById("prize");
-    prize.innerHTML = "中獎獎金：" + calculatePrize(matches);
+    prize.innerHTML = "中獎獎金: " + calculatePrize(matches); //(2)
 }
 
 function calculatePrize(matches) {
@@ -56,7 +56,7 @@ function calculatePrize(matches) {
     }
     return prizeAmount;
     }
-function check(){
+function check(){   //(5)
     var msg;
     if(confirm("請確定輸入的數字並沒有重複或不在範圍內")){
         msg="請繼續遊戲"
