@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the title</title>
+        <link rel="stylesheet" href="mystyle.css">
+        <script src="./myscriptfinal.js"></script> 
+    </head>
+    <body>
+        <div>
+            <h1>猜數字遊戲</h1>
+            <h2>開始!</h2>
+        </div>
+        <div class="pic"><a><img src="fighting.png"></a></div>
+        <form>
+            <label>請輸入 3 個號碼 (1~10):</label><br>
+            <input type="number" id="input1" min="1" max="10"><br>
+            <input type="number" id="input2" min="1" max="10"><br>
+            <input type="number" id="input3" min="1" max="10"><br><br>
+            <button type="button" onclick="check()">檢查</button>
+            <button type="button" onclick="checkNumbers()">開獎</button>    
+        </form>
+        <div id="result"></div>
+        <div id="prize"></div>
+        
+    </body>
+</html>
